@@ -1,0 +1,26 @@
+[user]
+	email = fdschonborn@gmail.com
+	name = Federico Damián Schonborn
+	signingkey = 692AB0DCB96A715A
+[core]
+	editor = nano -clm
+[alias]
+	amend = commit --amend -s
+	commit = commit -s
+[help]
+	autocorrect = 1
+[init]
+	defaultBranch = main
+[commit]
+	gpgSign = true
+[push]
+	gpgSign = if-asked
+[tag]
+	gpgSign = true
+[format]
+	signOff = true
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
