@@ -1,7 +1,7 @@
 [user]
 	email = fdschonborn@gmail.com
 	name = Federico Damián Schonborn
-	signingkey = 692AB0DCB96A715A
+	signingkey = B45C07B0E5E6C08D
 [core]
 	editor = code --wait
 [alias]
