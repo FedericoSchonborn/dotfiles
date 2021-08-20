@@ -5,8 +5,7 @@
 [core]
 	editor = code --wait
 [alias]
-	amend = commit --amend -s
-	commit = commit -s
+	amend = commit --amend
 [help]
 	autocorrect = 1
 [init]
