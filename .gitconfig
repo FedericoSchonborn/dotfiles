@@ -8,8 +8,6 @@
 	amend = commit --amend
 [help]
 	autocorrect = 1
-[init]
-	defaultBranch = main
 [commit]
 	gpgSign = true
 [push]
