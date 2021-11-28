@@ -6,8 +6,8 @@
 	editor = nano -clm
 [alias]
 	amend = commit --amend
-[help]
-	autocorrect = 1
+[init]
+	defaultBranch = master
 [commit]
 	gpgSign = true
 [push]
@@ -16,8 +16,3 @@
 	gpgSign = true
 [format]
 	signOff = true
-[filter "lfs"]
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
-	clean = git-lfs clean -- %f
