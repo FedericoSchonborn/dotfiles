@@ -3,7 +3,7 @@
 	name = Federico Damián Schonborn
 	signingkey = 193F70F15C9AB0A0
 [core]
-	editor = nano -clm
+	editor = nano -cl
 [alias]
 	amend = commit --amend
 [init]
