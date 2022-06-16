@@ -6,8 +6,6 @@
 	editor = nano -cl
 [alias]
 	amend = commit --amend
-[init]
-	defaultBranch = master
 [commit]
 	gpgSign = true
 [push]
